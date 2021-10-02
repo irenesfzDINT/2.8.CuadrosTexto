@@ -22,7 +22,6 @@ namespace CuadrosTexto
             InitializeComponent();
         }
 
-
         private void MensajeNombreYApellido(object sender, KeyEventArgs e)
         {
             String tag = (sender as TextBox).Tag.ToString();
